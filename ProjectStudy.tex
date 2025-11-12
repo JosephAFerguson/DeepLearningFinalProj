@@ -1,0 +1,81 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% Template version: IEEE conference style
+ \usepackage{todonotes}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{An Overview of Cryptocurrency and Its Volatility}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Your Name}
+\IEEEauthorblockA{\textit{Department Name} \\
+\textit{University or Organization}\\
+City, Country \\
+email@domain.com}
+\and
+\IEEEauthorblockN{2\textsuperscript{nd} Group Member Name}
+\IEEEauthorblockA{\textit{Department Name} \\
+\textit{University or Organization}\\
+City, Country \\
+email@domain.com}
+}
+
+\maketitle
+
+\begin{abstract}
+Cryptocurrencies are a form of digital currency operating on decentralized networks using blockchain technology. This paper provides an overview of cryptocurrency fundamentals, its decentralized nature, and the concept of market volatility, highlighting its difference from traditional financial assets.
+\end{abstract}
+
+\begin{IEEEkeywords}
+cryptocurrency, blockchain, decentralization, volatility, digital assets
+\end{IEEEkeywords}
+
+\section{Introduction}
+Cryptocurrency is a form of digital currency that operates on virtual networks and does not exist in physical form like traditional paper money or coins. Most cryptocurrencies utilize blockchain technology, a shared digital ledger that ensures secure recordkeeping and transaction verification.
+
+Cryptocurrencies are notable for two main reasons. First, they can typically be transferred directly between parties without intermediaries such as banks. In contrast, popular peer-to-peer payment platforms like Venmo, PayPal, or Zelle still require connections to bank accounts to function. 
+
+Second, cryptocurrencies are designed to be decentralized, meaning they are not controlled or owned by any government, central bank, or corporation. Instead, decentralized cryptocurrencies operate through open-source software that allows anyone with internet access to monitor and verify transactions. For instance, while the U.S. dollar is backed by the federal government and regulated by the Federal Reserve, Bitcoin operates independently of any centralized authority.
+
+As a relatively new asset class, cryptocurrencies are considered highly volatile—capable of significant price fluctuations over short time periods. This volatility is much greater than that of traditional financial instruments such as stocks, which may range from stable large-cap companies like Apple to more erratic “penny stocks.” 
+    This volatility provides a large opportuniy for profit by modelling this volatility. 
+
+This motivated the authors to explore modelling the volatility of the market by using past market data and sentiment to predict future trends using \todo[inline]{Decide on the model and explain it here.}
+
+
+\section{Related Studies}
+
+Recent advancements in computational finance have increasingly relied on deep learning (DL) to address the high volatility and non-linearity of cryptocurrency markets. Two seminal 2022 studies significantly contributed to this domain by applying specialized recurrent neural networks (RNNs) to forecast risk and price dynamics.
+
+\subsection{Volatility Modeling using Jordan Neural Networks}
+D’Amato, Levantesi, and Piscopo (2022) introduced a Jordan Neural Network (JNN) model for predicting cryptocurrency volatility \cite{b3}. The JNN, a recurrent neural network variant, was chosen for its parsimonious architecture, which balances computational efficiency with predictive accuracy. Empirical results demonstrated superior performance compared to benchmark models such as SETAR and NARNN, confirming the JNN’s ability to capture complex non-linear conditional heteroskedasticity within volatile digital asset markets. The model’s robustness across Bitcoin, Ethereum, and Ripple datasets suggests broad applicability in risk management and derivative pricing contexts.
+
+\subsection{Price Prediction using Sentiment-Integrated LSTM Networks}
+Parekh et al. (2022) proposed the DL-GuesS framework (Deep Learning and Sentiment Analysis-Based Cryptocurrency Price Prediction) \cite{b4}. Their system employed a Long Short-Term Memory (LSTM) network capable of integrating market data, blockchain metrics, and social media sentiment. This multi-modal design allows the model to capture exogenous, high-dimensional signals that influence price direction. The model achieved an accuracy of 64\% and an F1-score of 81\%, indicating strong effectiveness in identifying significant directional movements—critical for alpha generation and trading strategy development.
+
+\subsection{Comparative Insights}
+The two models serve complementary purposes: the JNN model focuses on volatility dynamics for risk management, while DL-GuesS targets directional price forecasting. Both studies demonstrate that deep learning architectures outperform traditional econometric approaches (e.g., GARCH, ARIMA) by better modeling the non-linear, stochastic nature of cryptocurrency markets. Moreover, their success has inspired subsequent research into hybrid and transfer learning models, such as CNN-BiLSTM-Attention frameworks, to enhance forecasting robustness across varying market regimes.
+
+Overall, the reviewed works affirm that deep learning methods—particularly RNN-based architectures like JNN and LSTM—represent the state-of-the-art for modeling cryptocurrency volatility and price prediction, forming the foundation for modern quantitative strategies in digital asset markets.
+
+
+
+
+\begin{thebibliography}{00}
+\bibitem{b1} Fidelity Investments, “What is crypto?”, 2024. [Online]. Available: \url{https://www.fidelity.com/learning-center/trading-investing/what-is-crypto}
+\bibitem{b2} Coinbase, “What is volatility?”, 2024. [Online]. Available: \url{https://www.coinbase.com/en-gb/learn/crypto-basics/what-is-volatility}
+\bibitem{b3} V. D’Amato, S. Levantesi, and G. Piscopo, “Deep learning in predicting cryptocurrency volatility,” \textit{Physica A: Statistical Mechanics and its Applications}, vol. 595, 2022. [Online]. Available: \url{https://www.sciencedirect.com/science/article/abs/pii/S0378437122001704}
+\bibitem{b4} R. Parekh, N. P. Patel, et al., “DL-GuesS: Deep Learning and Sentiment Analysis-Based Cryptocurrency Price Prediction,” \textit{IEEE Access}, vol. 10, pp. 9745117, 2022. [Online]. Available: \url{https://ieeexplore.ieee.org/abstract/document/9745117}
+\bibitem{b5} Unknown Author, “Systematic review methodology in quantitative finance,” \textit{Elsevier}, PII: S266682702300018X, 2023. [Online]. Available: \url{https://www.sciencedirect.com/science/article/pii/S266682702300018X}
+\end{thebibliography}
+
+
+\end{document}
