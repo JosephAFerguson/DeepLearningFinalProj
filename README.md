@@ -1,1 +1,5 @@
-https://colab.research.google.com/github/JosephAFerguson/DeepLearningFinalProj/blob/main/DeepLearningJF.ipynb
+**Source/Project Code is in /src**
+
+**Poster is Poster.pptx**
+
+**Report is Report.pdf**
