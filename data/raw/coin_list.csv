@@ -1,0 +1,31 @@
+id,rank,name,symbol,slug,is_active,status,first_historical_data,last_historical_data,platform
+1,1,Bitcoin,BTC,bitcoin,1,1,2010-07-13T00:05:00.000Z,2025-12-03T15:45:00.000Z,
+1027,2,Ethereum,ETH,ethereum,1,1,2015-08-07T14:45:00.000Z,2025-12-03T15:45:00.000Z,
+52,4,XRP,XRP,xrp,1,1,2013-08-04T18:50:00.000Z,2025-12-03T15:45:00.000Z,
+1839,5,BNB,BNB,bnb,1,1,2017-07-25T04:30:00.000Z,2025-12-03T15:45:00.000Z,
+5426,6,Solana,SOL,solana,1,1,2020-04-10T04:55:00.000Z,2025-12-03T15:45:00.000Z,
+1958,8,TRON,TRX,tron,1,1,2017-09-13T01:15:00.000Z,2025-12-03T15:45:00.000Z,
+74,9,Dogecoin,DOGE,dogecoin,1,1,2013-12-15T14:40:00.000Z,2025-12-03T15:45:00.000Z,
+2010,10,Cardano,ADA,cardano,1,1,2017-10-01T20:30:00.000Z,2025-12-03T15:45:00.000Z,
+1831,11,Bitcoin Cash,BCH,bitcoin-cash,1,1,2017-07-23T16:25:00.000Z,2025-12-03T15:45:00.000Z,
+32196,12,Hyperliquid,HYPE,hyperliquid,1,1,2024-11-29T07:45:00.000Z,2025-12-03T15:50:00.000Z,"{'id': 236, 'name': 'Hyperliquid', 'symbol': 'HYPE', 'slug': 'hyperliquid', 'token_address': '0x0d01dc56dcaaca66ad901c959b4011ec'}"
+1975,13,Chainlink,LINK,chainlink,1,1,2017-09-20T20:50:00.000Z,2025-12-03T15:45:00.000Z,"{'id': 1, 'name': 'Ethereum', 'symbol': 'ETH', 'slug': 'ethereum', 'token_address': '0x514910771af9ca656af840dff83e8264ecf986ca'}"
+3957,14,UNUS SED LEO,LEO,unus-sed-leo,1,1,2019-05-21T18:35:00.000Z,2025-12-03T15:45:00.000Z,"{'id': 1, 'name': 'Ethereum', 'symbol': 'ETH', 'slug': 'ethereum', 'token_address': '0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3'}"
+512,15,Stellar,XLM,stellar,1,1,2014-08-05T05:40:00.000Z,2025-12-03T15:45:00.000Z,
+328,16,Monero,XMR,monero,1,1,2014-05-21T01:40:00.000Z,2025-12-03T15:45:00.000Z,
+2,18,Litecoin,LTC,litecoin,1,1,2013-04-28T18:45:00.000Z,2025-12-03T15:45:00.000Z,
+20947,19,Sui,SUI,sui,1,1,2023-05-03T12:05:00.000Z,2025-12-03T15:50:00.000Z,
+4642,20,Hedera,HBAR,hedera,1,1,2019-09-17T09:10:00.000Z,2025-12-03T15:45:00.000Z,
+5805,21,Avalanche,AVAX,avalanche,1,1,2020-09-22T06:40:00.000Z,2025-12-03T15:45:00.000Z,
+1437,22,Zcash,ZEC,zcash,1,1,2016-10-29T15:15:00.000Z,2025-12-03T15:45:00.000Z,
+5994,24,Shiba Inu,SHIB,shiba-inu,1,1,2020-08-01T00:15:00.000Z,2025-12-03T15:45:00.000Z,"{'id': 1, 'name': 'Ethereum', 'symbol': 'ETH', 'slug': 'ethereum', 'token_address': '0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce'}"
+33251,25,World Liberty Financial,WLFI,world-liberty-financial-wlfi,1,1,2025-09-01T12:00:00.000Z,2025-12-03T15:50:00.000Z,"{'id': 1, 'name': 'Ethereum', 'symbol': 'ETH', 'slug': 'ethereum', 'token_address': '0xdA5e1988097297dCdc1f90D4dFE7909e847CBeF6'}"
+3635,26,Cronos,CRO,cronos,1,1,2018-12-14T17:35:00.000Z,2025-12-03T15:45:00.000Z,
+11419,27,Toncoin,TON,toncoin,1,1,2021-08-26T14:00:00.000Z,2025-12-03T15:50:00.000Z,
+7083,29,Uniswap,UNI,uniswap,1,1,2020-09-17T01:10:00.000Z,2025-12-03T15:45:00.000Z,"{'id': 1, 'name': 'Ethereum', 'symbol': 'ETH', 'slug': 'ethereum', 'token_address': '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984'}"
+6636,30,Polkadot,DOT,polkadot-new,1,1,2020-08-20T03:25:00.000Z,2025-12-03T15:45:00.000Z,
+27075,31,Mantle,MNT,mantle,1,1,2023-07-17T11:10:00.000Z,2025-12-03T15:50:00.000Z,"{'id': 1, 'name': 'Ethereum', 'symbol': 'ETH', 'slug': 'ethereum', 'token_address': '0x3c3a81e81dc49a522a592e7622a7e711c06bf354'}"
+7278,32,Aave,AAVE,aave,1,1,2020-10-04T12:55:00.000Z,2025-12-03T15:45:00.000Z,"{'id': 1, 'name': 'Ethereum', 'symbol': 'ETH', 'slug': 'ethereum', 'token_address': '0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9'}"
+22974,33,Bittensor,TAO,bittensor,1,1,2023-03-05T23:55:00.000Z,2025-12-03T15:50:00.000Z,"{'id': 258, 'name': 'Bittensor', 'symbol': 'TAO', 'slug': 'bittensor', 'token_address': '0'}"
+37263,34,Canton,CC,canton-network,1,1,2025-11-10T07:05:00.000Z,2025-12-03T15:50:00.000Z,
+36341,36,Aster,ASTER,aster,1,1,2025-09-17T14:10:00.000Z,2025-12-03T15:50:00.000Z,"{'id': 14, 'name': 'BNB Smart Chain (BEP20)', 'symbol': 'BNB', 'slug': 'bnb', 'token_address': '0x000Ae314E2A2172a039B26378814C252734f556A'}"
