@@ -1,0 +1,83 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+% Packages
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{todonotes}
+\usepackage{url}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{SCAM: Small-Cap Analysis Model using Hybrid Attention–Recurrent Framework for Cryptocurrency Forecasting}
+
+\author{
+\IEEEauthorblockN{Joe Ferguson, Jeff Hock, Om Jadhav, Roshan Baskaran, Douglas Phinney}
+\IEEEauthorblockA{\textit{University of Cincinnati}}
+}
+
+\maketitle
+
+\section{Introduction}
+Cryptocurrency is a digital currency that is not reliant on central authorities like other currencies, instead relying on decentralized networks \cite{coinbase2024}. Our study aims to forecast small-cap cryptocurrencies, which typically have less market value and receive less analytical coverage.
+
+Many methods have been developed for this problem in the field of machine learning and deep learning \cite{wu2024, damato2022, amirshahi2023}. The main challenge these methods face is the volatility of the market \cite{coinbase2024, damato2022}. Prices can shift in response to investor sentiment, global and economic events, regulatory changes, and more. Due to the inherent noise in the market, most deep learning models fail to learn the underlying shifts and predictions suffer as a result \cite{wu2024, damato2022}.
+
+In response to this, we are experimenting with multi-modal approaches utilizing variations of Long Short-Term Memory (LSTM) models, alongside sentiment analysis, Generalized Auto Regressive Conditional Heteroskedasticity (GARCH), and Graph Neural Networks (GNN) \cite{parekh2022, amirshahi2023, sonani2025}. Our efforts aim to forecast the direction of these small-cap cryptocurrencies, whether the price will increase or decrease the next day.
+
+In general, this work introduces a hybrid attention–recurrent framework designed to enhance prediction accuracy for small-cap cryptocurrencies \cite{kehinde2025}. By leveraging both multi-modal approaches and modern deep learning techniques, we aim to push past the limitations of single-model approaches and provide more robust insights for traders and quantitative researchers.
+
+\section{Related Studies}
+
+\subsection{Review of Deep Learning Models for Crypto Price Prediction: Implementation and Evaluation}
+
+Wu et al. \cite{wu2024} explore deep learning solutions for predicting cryptocurrency prices via testing several common models such as LSTMs, CNN's, Conv-LSTMs, and Transformers. They ran these models on four major cryptocurrencies and compare how well each predicts the next day’s price. Their results showed that LSTM models provide the most stable and accurate forecasts. The study gives a clear view of current methods and shows why LSTMs remain a strong choice for this task.
+
+\subsection{Price Prediction using Sentiment-Integrated LSTM Networks}
+Parekh et al. proposed the DL-GuesS framework (Deep Learning and Sentiment Analysis-Based Cryptocurrency Price Prediction) \cite{parekh2022}. Their system uses a Long Short-Term Memory (LSTM) network that integrated market data, blockchain metrics, and social media sentiment. This multi-modal design allowed the model to capture exogenous, high-dimensional signals that influence price direction. The model reported an accuracy of 64\% and an F1-score of 81\%, indicating effectiveness in identifying directional movements—critical for alpha generation and the development of successful trading strategies.
+
+\subsection{Helformer: an attention‑based deep learning model for cryptocurrency price forecasting}
+Kehinde et al. \cite{kehinde2025} introduced Helformer, an attention-based deep learning model designed for cryptocurrency price forecasting \cite{kehinde2025}. The model applies Holt-Winters smoothing to separate each price series into simpler components, making patterns easier for the network to learn. Helformer also replaces the standard Transformer feed-forward block with an LSTM, improving its ability to track how prices evolve over time while still using attention to highlight important movements. Using Bayesian optimization through Optuna, the authors further refine performance and limit overfitting. Experiments across Bitcoin and fifteen other cryptocurrencies show that Helformer outperforms RNN, LSTM, GRU, BiLSTM, and standard Transformer models, making it a strong candidate for real world cryptocurrency price prediction and trading.
+
+\subsection{Hybrid LSTM-GNN Model: Integrating Time-Series and Graph-Based Analysis for Stock Prediction}
+
+Sonani et al. \cite{sonani2025} presented a hybrid LSTM-GNN-based model to predict stock price which integrates the temporal and inter stock relations. The LSTM component tries to model the long-term temporal information in stock price sequences, while the GNN component predicts the inter-stock relationship dynamics of the market as a graph. Their experimental results show the hybrid LSTM-GNN achieved a $10.6\%$ reduction in the MSE across the ten major U.S Stocks.
+
+
+
+
+\begin{thebibliography}{00}
+
+\bibitem{wu2024}
+J. Wu, X. Zhang, F. Huang, H. Zhou, and R. Chandra, "Review of deep learning models for crypto price prediction: implementation and evaluation," \textit{arXiv preprint arXiv:2405.11431}, May 2024. [Online]. Available: \url{https://arxiv.org/abs/2405.11431}.
+
+\bibitem{kehinde2025}
+T. O. Kehinde, O. J. Adedokun, A. Joseph, M. K. Kareem, H. A. Akano, and O. A. Olanrewaju, "Helformer: an attention-based deep learning model for cryptocurrency price forecasting," \textit{Journal of Big Data}, vol. 12, Art. no. 81, Apr. 2025. doi: 10.1186/s40537-025-01135-4.
+
+\bibitem{coinbase2024}
+Coinbase, "What is volatility?," 2024. [Online]. Available: \url{https://www.coinbase.com/learn/crypto-basics/what-is-volatility}. Accessed: Nov. 14, 2025.
+
+\bibitem{damato2022}
+V. D'Amato, S. Levantesi, and G. Piscopo, "Deep learning in predicting cryptocurrency volatility," \textit{Physica A: Statistical Mechanics and its Applications}, vol. 596, 2022, Art. no. 127158. [Online]. Available: \url{https://www.sciencedirect.com/science/article/pii/S0378437122001704}. doi:10.1016/j.physa.2022.127158.
+
+\bibitem{parekh2022}
+R. Parekh, N. P. Patel, N. Thakkar, R. Gupta, S. Tanwar, G. Sharma, I. E. Davidson, and R. Sharma, "DL-GuesS: Deep learning and sentiment analysis-based cryptocurrency price prediction," \textit{IEEE Access}, vol. 10, 2022, pp. 35399--35407, doi: 10.1109/ACCESS.2022.3163305. [Online]. Available: \url{https://ieeexplore.ieee.org/document/9745117}.
+
+\bibitem{amirshahi2023}
+B. Amirshahi and S. Lahmiri, "Hybrid deep learning and GARCH-family models for forecasting volatility of cryptocurrencies," \textit{Machine Learning with Applications}, vol. 12, p. 100465, Apr. 2023. doi: 10.1016/j.mlwa.2023.100465.
+
+\bibitem{sonani2025}
+M. S. Sonani, A. Badii, and A. Moin, "Stock price prediction using a hybrid LSTM-GNN model: Integrating time-series and graph-based analysis," \textit{arXiv preprint arXiv:2502.15813}, Feb. 2025. [Online]. Available: \url{https://arxiv.org/abs/2502.15813}.
+
+\end{thebibliography}
+
+
+
+\end{document}

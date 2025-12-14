@@ -2,4 +2,6 @@
 
 **Poster is Poster.pptx**
 
-**Report is Report.pdf**
+**Report is Report.pdf - This is not done yet**
+
+**https://github.com/JosephAFerguson/DeepLearningFinalProj**
